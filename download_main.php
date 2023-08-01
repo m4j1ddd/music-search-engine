@@ -1,7 +1,7 @@
 <?php
 require_once('admin/config.php');
 require_once('includes/url_slug.php'); 
-require_once('YoutubeDownloader.php');
+
 $json = file_get_contents('https://www.googleapis.com/youtube/v3/videos?id='.$_GET["q"].'&key='.$youtube_key.'&part=snippet');
 $yt_data = json_decode($json);
 $yt_id = $_GET["q"];
@@ -58,19 +58,7 @@ $yt_id = $_GET["q"];
 		<div class="col-md-12">
 
 			<div class="page-header">
-			  <h3><?php echo '' . $yt_data->items[0]->snippet->title . ''; ?>
-<!--                  --><?php
-//                  echo 'https://www.youtube.com/watch?v='.$yt_id;
-//                  $yt = new yt('https://www.youtube.com/watch?v='.$yt_id);
-//                  echo $yt->get_url();
-//                  foreach($yt->links as $key => $value){
-//                      $yt->links[$key]['url'] = "youtube/".base64_encode($value['url']);
-//                  }
-//                  echo $yt->links;
-//                  echo "<br>";
-//                  echo "Yes!";
-//                  ?>
-              </h3>
+			  <h3><?php echo '' . $yt_data->items[0]->snippet->title . ''; ?></h3>
 			</div>
 
 		</div>
