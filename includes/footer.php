@@ -9,7 +9,6 @@
 <p class="pull-right">
 <a href="<?php echo $site_url;?>"><?php echo $footnav_home; ?></a> | <a rel="nofollow" href="<?php echo $site_url;?>/privacy-policy"><?php echo $footnav_privacy; ?></a> | <a rel="nofollow" href="<?php echo $site_url;?>/dmca"><?php echo $footnav_dmca; ?></a> | <a rel="nofollow" href="<?php echo $site_url;?>/contact"><?php echo $footnav_contact; ?></a>
 </p>
-<div style="display:none;"><a href="http://www.20script.ir" title="Download Premium WordPress Themes and PHP Scripts">Download Premium WordPress Themes and PHP Scripts</a></div>
 			</footer>
 		</div>
 	</div>
