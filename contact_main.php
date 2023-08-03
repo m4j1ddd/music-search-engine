@@ -11,7 +11,7 @@ ini_set('display_errors', 0);
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
-		$from = 'Contact Form'; 
+		$from = 'Contact Form';
 		$to = $contact_email;
 		$subject = 'Message from '.$site_title.' contact form';
 		
@@ -101,21 +101,21 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="name" class="col-sm-2 control-label">Name</label>
+						<label for="name" class="col-sm-2 control-label">نام</label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+							<input type="text" class="form-control" id="name" name="name" placeholder="نام شما" value="<?php echo htmlspecialchars($_POST['name']); ?>">
 							<?php echo "<p class='text-danger'>$errName</p>";?>
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="email" class="col-sm-2 control-label">Email</label>
+						<label for="email" class="col-sm-2 control-label">ایمیل</label>
 						<div class="col-sm-10">
 							<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
 							<?php echo "<p class='text-danger'>$errEmail</p>";?>
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="message" class="col-sm-2 control-label">Message</label>
+						<label for="message" class="col-sm-2 control-label">پیام</label>
 						<div class="col-sm-10">
 							<textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
 							<?php echo "<p class='text-danger'>$errMessage</p>";?>
@@ -124,13 +124,13 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 					<div class="form-group">
 						<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+							<input type="text" class="form-control" id="human" name="human" placeholder="جواب شما">
 							<?php echo "<p class='text-danger'>$errHuman</p>";?>
 						</div>
 					</div>
 					<div class="form-group">
 						<div class="col-sm-10 col-sm-offset-2">
-							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-raised btn-warning">
+							<input id="submit" name="submit" type="submit" value="ارسال" class="btn btn-raised btn-warning">
 						</div>
 					</div>
 					
