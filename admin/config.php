@@ -1,8 +1,8 @@
 <?php  
 			$username="admin"; 
 			$password="Free_online_5"; 
-			$site_url="https://tahq.ir"; 
-			$site_title="موتور جستجوی موسیقی تحقیر"; 
+			$site_url="http://sarfcard.gigfa.com";
+			$site_title="موتور جستجوی موسیقی";
 			$youtube_key="AIzaSyATgUzhCJpIVAeEt0zFeYN9InzJ_gia0yE";
 			$addthis_id=""; 
 			$contact_email="";
@@ -15,7 +15,7 @@
 			$show_down_but="1";
 			$show_vid_descr="1";
 			$show_rel_searches="1";
-			$homepage_title="موتور جستجوی موسیقی تحقیر";
+			$homepage_title="موتور جستجوی موسیقی";
 			$homepage_desc="از موزیک لذت ببر";
 			$search_seo_title="موزیک";
 			$videopage_title="دانلود";
