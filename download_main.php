@@ -15,7 +15,6 @@ $yt_id = $_GET["q"];
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title><?php echo $yt_data->items[0]->snippet->title; ?> - <?php echo $videopage_title;?> - <?php echo $site_title;?></title>
     <meta name="description" content="<?php echo htmlspecialchars($yt_data->items[0]->snippet->title); ?> - <?php echo $videopage_title;?> - <?php echo $site_title;?>">
-    <meta name="robots" content="noindex, follow"/>
     <meta property="og:title" content="<?php echo htmlspecialchars($yt_data->items[0]->snippet->title); ?> - <?php echo $videopage_title;?> - <?php echo $site_title;?>" />
     <meta property="og:description" content="<?php echo htmlspecialchars($yt_data->items[0]->snippet->title); ?> - <?php echo $videopage_title;?> - <?php echo $site_title;?>" />
     <meta property="og:url" content="<?php echo $site_url;?>/download/<?php echo $yt_id; ?>/<?php echo cano($yt_data->items[0]->snippet->title); ?>" />

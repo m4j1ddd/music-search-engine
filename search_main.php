@@ -16,7 +16,6 @@ $search_title = ucwords($search_title);
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title><?php echo $search_title; ?> - <?php echo $search_seo_title;?> - <?php echo $site_title;?></title>
     <meta name="description" content="<?php echo $search_title; ?> - <?php echo $search_seo_title;?> - <?php echo $site_title;?>"/>
-	<meta name="robots" content="noodp"/>
 	<link rel="canonical" href="<?php echo $site_url;?>/music/<?php echo $save_search;?>" />
 	<meta property="og:title" content="<?php echo $search_title; ?> - <?php echo $search_seo_title;?> - <?php echo $site_title;?>" />
     <meta property="og:description" content="<?php echo $search_title; ?> - <?php echo $search_seo_title;?> - <?php echo $site_title;?>" />

@@ -12,7 +12,6 @@ $page_title = $footnav_dmca;
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title><?php echo $page_title; ?> - <?php echo $site_title; ?></title>
 	<meta name="description" content="<?php echo $page_title; ?> - <?php echo $site_title; ?>" />
-	<meta name="robots" content="noindex,follow" />
 	<!-- CSS and Scripts -->
 	<?php include 'includes/headscripts.php'; ?>
 	</head>

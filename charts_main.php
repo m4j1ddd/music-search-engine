@@ -87,7 +87,6 @@ $country_title = $countries[$chart_country];
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title><?php echo $chart_pre_title; ?> <?php if(isset($chart_genre_id) and !empty($chart_genre_id)){ echo $chart_genre_title; }?> <?php echo $chart_aft_title; ?> <?php echo $country_title; ?> - <?php echo $site_title; ?></title>
 	<meta name="description" content="<?php echo $chart_pre_title; ?> <?php if(isset($chart_genre_id) and !empty($chart_genre_id)){ echo $chart_genre_title; }?> <?php echo $chart_aft_title; ?> <?php echo $country_title; ?> - <?php echo $site_title; ?>" />
-	<meta name="robots" content="noodp"/>
 	<meta property="og:title" content="<?php echo $chart_pre_title; ?> <?php if(isset($chart_genre_id) and !empty($chart_genre_id)){ echo $chart_genre_title; }?> <?php echo $chart_aft_title; ?> <?php echo $country_title; ?> - <?php echo $site_title; ?>"/>
 	<meta property="og:description" content="<?php echo $chart_pre_title; ?> <?php if(isset($chart_genre_id) and !empty($chart_genre_id)){ echo $chart_genre_title; }?> <?php echo $chart_aft_title; ?> <?php echo $country_title; ?> - <?php echo $site_title; ?>"/>
 	<meta property="og:type" content="article"/>
