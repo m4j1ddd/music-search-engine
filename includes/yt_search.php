@@ -109,7 +109,7 @@ foreach ($response['items'] as $video) {
 							<div class="media-right">
 									<a href="javascript:;" data-id="<?php echo $video['id']['videoId'];?>" data-title="<?php echo htmlspecialchars( $video['snippet']['title'] ); ?>" data-source="youtube" id="ic<?php echo $video['id']['videoId'];?>" class="btn-play"><button type="button" class="btn btn-success btn-md" style="width: 100%;"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> <?php echo $search_play_but; ?></button></a>
 									<a href="javascript:;" data-id="<?php echo $video['id']['videoId'];?>" class="btn-stop" style="display: none;"><button type="button" class="btn btn-warning btn-md" style="width: 100%;"><span class="glyphicon glyphicon-stop" aria-hidden="true"></span> <?php echo $search_stop_but; ?></button></a>
-									<a href="<?php echo $site_url;?>/download/<?php echo $video['id']['videoId'];?>/<?php echo cano($video['snippet']['title']);?>"><button type="button" class="btn btn-primary btn-md" style="margin-top: 10px;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> <?php echo $search_down_but; ?></button></a>
+<!--									<a href="--><?php //echo $site_url;?><!--/download/--><?php //echo $video['id']['videoId'];?><!--/--><?php //echo cano($video['snippet']['title']);?><!--"><button type="button" class="btn btn-primary btn-md" style="margin-top: 10px;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> --><?php //echo $search_down_but; ?><!--</button></a>-->
 						    </div>
 						  </li>
 						</ul>

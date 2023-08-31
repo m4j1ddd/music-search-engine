@@ -1,7 +1,7 @@
 <?php  
 			$username="admin"; 
 			$password="Free_online_5"; 
-			$site_url="http://sarfcard.gigfa.com";
+			$site_url="http://sarfcard.ir";
 			$site_title="موتور جستجوی موسیقی";
 			$youtube_key="AIzaSyATgUzhCJpIVAeEt0zFeYN9InzJ_gia0yE";
 			$addthis_id=""; 

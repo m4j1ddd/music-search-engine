@@ -79,14 +79,14 @@ $yt_id = $_GET["q"];
 echo $down_ad_728; ?>
 </div>
 <?php endif; ?>		
-		<?php if($show_down_but): ?>
-			<div class="btn-group btn-group-justified">
-			<div class="btn-group">
-			<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#downloads" title="<?php echo $vid_down_but; ?>"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="margin-right: 5px;"></span> <?php echo $vid_down_but; ?></button>
-			</div>
-			</div>
-			<br>
-		<?php endif; ?>	
+<!--		--><?php //if($show_down_but): ?>
+<!--			<div class="btn-group btn-group-justified">-->
+<!--			<div class="btn-group">-->
+<!--			<button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#downloads" title="--><?php //echo $vid_down_but; ?><!--"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="margin-right: 5px;"></span> --><?php //echo $vid_down_but; ?><!--</button>-->
+<!--			</div>-->
+<!--			</div>-->
+<!--			<br>-->
+<!--		--><?php //endif; ?><!--	-->
 			<?php if($show_vid_descr): ?>
 			<p><?php echo $yt_data->items[0]->snippet->description; ?></p>
 			<?php endif; ?>
